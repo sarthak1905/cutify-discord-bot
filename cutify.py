@@ -36,4 +36,4 @@ async def cutify(ctx, *, animal):
     else:       
         await ctx.send(f'Animal is: {animal}. Sadly, I do not support those animals yet :(')
 
-bot.run(os.environ['CUTIFY_TOKEN'])
+bot.run('ENTER YOUR TOKEN HERE')
